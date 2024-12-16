@@ -1,0 +1,135 @@
+$rosa: #DC0155;
+$negro: #333333;
+$gris: #909090; 
+
+$font_primary: "Poppins", "sans-serif";
+$font-secundary: "Bebas Neue", sans-serif;
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    max-width: 1400px;
+    font-family: $font_primary;
+    
+}
+
+#ellipse{
+    position: absolute;
+    width: 60%;
+    border-radius: 70%;
+    top: -20%;
+    left: -20%;
+}
+
+
+body{
+    background-image: url("../img/image.png");
+    background-repeat: no-repeat;
+    background-position: top 110% right;
+    background-size: 800px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.menu{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    gap: 30px;
+    position: relative;
+    right: 500px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: $negro;
+    font-weight: 400;
+}
+
+.hero{
+    max-width: 800px;
+    color: $negro;
+    margin-top: 40px;
+    list-style: none;
+    &_saludo{
+        text-align: start;
+        font-weight: 500;
+        font-size: 18px;
+        
+    }
+    &_title{
+        font-family: $font-secundary;
+        font-weight: 400;
+        font-size: 110px;
+        line-height: 110px;
+        margin: 0;
+    }
+    &_description{
+        font-weight: 400;
+        font-size: 18px;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    &_btn{
+        background-color: $rosa;
+        color: white;
+        padding: 12px 25px;
+        border-radius: 24px;
+        text-decoration: none;
+        margin-bottom: 40px;
+    }
+
+}
+
+.active {
+    color: $rosa;
+}
+
+.servicios{
+    display: flex;
+    height: 70%;
+    gap: 50px;
+    &_titulo{
+        max-width: 500;
+    }
+
+}
+
+
+.servicios h2{
+    font-family: $font-secundary;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 50px;
+    
+}
+
+.servicios article{
+    margin-bottom: 50px;
+    max-width: 800px;
+    img{
+        border-top: 30px;
+    }
+    h3{
+        color: $negro;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    p{
+        color: $gris;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+
+
