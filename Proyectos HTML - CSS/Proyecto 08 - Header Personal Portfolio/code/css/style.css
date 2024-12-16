@@ -1,0 +1,115 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  max-width: 1400px;
+  font-family: "Poppins", "sans-serif";
+}
+
+#ellipse {
+  position: absolute;
+  width: 60%;
+  border-radius: 70%;
+  top: -20%;
+  left: -20%;
+}
+
+body {
+  background-image: url("../img/image.png");
+  background-repeat: no-repeat;
+  background-position: top 110% right;
+  background-size: 800px;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+  gap: 30px;
+  position: relative;
+  right: 500px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: 400;
+}
+
+.hero {
+  max-width: 800px;
+  color: #333333;
+  margin-top: 40px;
+  list-style: none;
+}
+.hero_saludo {
+  text-align: start;
+  font-weight: 500;
+  font-size: 18px;
+}
+.hero_title {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 110px;
+  margin: 0;
+}
+.hero_description {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+.hero_btn {
+  background-color: #DC0155;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 24px;
+  text-decoration: none;
+}
+
+.active {
+  color: #DC0155;
+}
+
+.servicios {
+  display: flex;
+  max-width: 100%;
+  gap: 50px;
+}
+.servicios_titulo {
+  width: 500px;
+}
+
+.servicios h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.servicios article {
+  position: relative;
+  top: 150px;
+  right: 390px;
+  max-width: 800px;
+}
+.servicios article h3 {
+  color: #333333;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.servicios article p {
+  color: #909090;
+  font-size: 16px;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
